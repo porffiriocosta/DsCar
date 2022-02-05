@@ -1,0 +1,109 @@
+.btn-container-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 63px 0 63px;
+  margin-top: 15px;
+  background-color: #ededed;
+  border-radius: 5px 5px 5px 5px;
+  height: 65px;
+}
+
+.btn-container-search button {
+  border-radius: 0px 5px 5px 0px;
+  background-color: #00285f;
+  width: 70px;
+  margin-left: 160px;
+  margin-top: -67px;
+}
+
+.btn-container-search input {
+  border-radius: 5px 0px 0px 5px;
+  width: 185px;
+  margin-right: 75px;
+  border: none;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  .btn-container-search input {
+    border-radius: 5px 0px 0px 5px;
+    width: 405px;
+    margin-right: 75px;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .btn-container-search button {
+    border-radius: 0px 5px 5px 0px;
+    background-color: #00285f;
+    width: 70px;
+    margin-left: 402px;
+    margin-top: -67px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-container-search input {
+    border-radius: 5px 0px 0px 5px;
+    width: 570px;
+    margin-right: 75px;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .btn-container-search button {
+    border-radius: 0px 5px 5px 0px;
+    background-color: #00285f;
+    width: 70px;
+    margin-left: 566px;
+    margin-top: -67px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-container-search input {
+    border-radius: 5px 0px 0px 5px;
+    width: 700px;
+    margin-right: 75px;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .btn-container-search button {
+    border-radius: 0px 5px 5px 0px;
+    background-color: #00285f;
+    width: 70px;
+    margin-left: 696px;
+    margin-top: -67px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .btn-container-search input {
+    border-radius: 5px 0px 0px 5px;
+    width: 900px;
+    margin-right: 75px;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .btn-container-search button {
+    border-radius: 0px 5px 5px 0px;
+    background-color: #00285f;
+    width: 70px;
+    margin-left: 896px;
+    margin-top: -67px;
+  }
+}
