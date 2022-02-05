@@ -123,6 +123,7 @@
   .home-card {
     flex-direction: row;
     justify-content: space-around;
+    margin-top: -70px;
   }
 
   .home-content-container {
@@ -165,5 +166,11 @@
 
   .home-image-container svg {
     width: 480px;
+  }
+
+  .home-card {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -70px;
   }
 }

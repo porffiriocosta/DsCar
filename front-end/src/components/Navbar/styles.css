@@ -14,10 +14,6 @@
   flex-grow: 0;
 }
 
-.navbar-toggler-icon {
-  color: #00285f;
-}
-
 .main-menu {
   display: flex;
   font-size: 18px;
